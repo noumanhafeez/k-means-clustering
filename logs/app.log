@@ -1,0 +1,167 @@
+2026-04-19 13:59:22,094 - main - INFO - Program started
+2026-04-19 13:59:22,095 - main - INFO - 
+Running compression for K=2
+2026-04-19 13:59:22,095 - image_processor - INFO - Opening images/sample.jpeg
+2026-04-19 13:59:22,104 - kmeans - INFO - Starting K-Means with K=2
+2026-04-19 13:59:22,104 - kmeans - INFO - Iteration 1
+2026-04-19 13:59:22,260 - kmeans - INFO - Iteration 2
+2026-04-19 13:59:22,441 - kmeans - INFO - Iteration 3
+2026-04-19 13:59:22,597 - kmeans - INFO - Iteration 4
+2026-04-19 13:59:22,752 - kmeans - INFO - Iteration 5
+2026-04-19 13:59:22,907 - kmeans - INFO - Converged early
+2026-04-19 13:59:22,907 - kmeans - INFO - K-Means finished
+2026-04-19 13:59:23,056 - image_processor - INFO - Compression complete
+2026-04-19 13:59:23,058 - main - INFO - Saved: images/sample_k_2.jpg
+2026-04-19 13:59:23,058 - visualizer - INFO - Displaying images using matplotlib
+2026-04-19 13:59:25,478 - visualizer - INFO - Displaying centroid RGB values
+2026-04-19 13:59:25,478 - visualizer - INFO - Centroid 1: (206, 206, 208)
+2026-04-19 13:59:25,478 - visualizer - INFO - Centroid 2: (77, 82, 23)
+2026-04-19 13:59:27,051 - main - INFO - 
+Running compression for K=3
+2026-04-19 13:59:27,051 - image_processor - INFO - Opening images/sample.jpeg
+2026-04-19 13:59:27,074 - kmeans - INFO - Starting K-Means with K=3
+2026-04-19 13:59:27,074 - kmeans - INFO - Iteration 1
+2026-04-19 13:59:27,296 - kmeans - INFO - Iteration 2
+2026-04-19 13:59:27,510 - kmeans - INFO - Iteration 3
+2026-04-19 13:59:27,721 - kmeans - INFO - Iteration 4
+2026-04-19 13:59:27,928 - kmeans - INFO - Iteration 5
+2026-04-19 13:59:28,134 - kmeans - INFO - Iteration 6
+2026-04-19 13:59:28,357 - kmeans - INFO - Iteration 7
+2026-04-19 13:59:28,618 - kmeans - INFO - Iteration 8
+2026-04-19 13:59:28,833 - kmeans - INFO - Iteration 9
+2026-04-19 13:59:29,041 - kmeans - INFO - Iteration 10
+2026-04-19 13:59:29,247 - kmeans - INFO - K-Means finished
+2026-04-19 13:59:29,455 - image_processor - INFO - Compression complete
+2026-04-19 13:59:29,457 - main - INFO - Saved: images/sample_k_3.jpg
+2026-04-19 13:59:29,458 - visualizer - INFO - Displaying images using matplotlib
+2026-04-19 13:59:31,147 - visualizer - INFO - Displaying centroid RGB values
+2026-04-19 13:59:31,147 - visualizer - INFO - Centroid 1: (60, 91, 22)
+2026-04-19 13:59:31,147 - visualizer - INFO - Centroid 2: (205, 210, 213)
+2026-04-19 13:59:31,147 - visualizer - INFO - Centroid 3: (170, 42, 37)
+2026-04-19 13:59:33,112 - main - INFO - 
+Running compression for K=5
+2026-04-19 13:59:33,112 - image_processor - INFO - Opening images/sample.jpeg
+2026-04-19 13:59:33,118 - kmeans - INFO - Starting K-Means with K=5
+2026-04-19 13:59:33,118 - kmeans - INFO - Iteration 1
+2026-04-19 13:59:33,443 - kmeans - INFO - Iteration 2
+2026-04-19 13:59:33,771 - kmeans - INFO - Iteration 3
+2026-04-19 13:59:34,101 - kmeans - INFO - Iteration 4
+2026-04-19 13:59:34,424 - kmeans - INFO - Iteration 5
+2026-04-19 13:59:34,750 - kmeans - INFO - Iteration 6
+2026-04-19 13:59:35,077 - kmeans - INFO - Iteration 7
+2026-04-19 13:59:35,410 - kmeans - INFO - Iteration 8
+2026-04-19 13:59:35,742 - kmeans - INFO - Iteration 9
+2026-04-19 13:59:36,078 - kmeans - INFO - Iteration 10
+2026-04-19 13:59:36,405 - kmeans - INFO - K-Means finished
+2026-04-19 13:59:36,734 - image_processor - INFO - Compression complete
+2026-04-19 13:59:36,737 - main - INFO - Saved: images/sample_k_5.jpg
+2026-04-19 13:59:36,737 - visualizer - INFO - Displaying images using matplotlib
+2026-04-19 13:59:38,506 - visualizer - INFO - Displaying centroid RGB values
+2026-04-19 13:59:38,506 - visualizer - INFO - Centroid 1: (99, 11, 9)
+2026-04-19 13:59:38,506 - visualizer - INFO - Centroid 2: (206, 217, 221)
+2026-04-19 13:59:38,506 - visualizer - INFO - Centroid 3: (173, 33, 29)
+2026-04-19 13:59:38,506 - visualizer - INFO - Centroid 4: (192, 132, 113)
+2026-04-19 13:59:38,507 - visualizer - INFO - Centroid 5: (59, 92, 21)
+2026-04-19 13:59:40,013 - main - INFO - 
+Running compression for K=10
+2026-04-19 13:59:40,013 - image_processor - INFO - Opening images/sample.jpeg
+2026-04-19 13:59:40,018 - kmeans - INFO - Starting K-Means with K=10
+2026-04-19 13:59:40,019 - kmeans - INFO - Iteration 1
+2026-04-19 13:59:40,632 - kmeans - INFO - Iteration 2
+2026-04-19 13:59:41,244 - kmeans - INFO - Iteration 3
+2026-04-19 13:59:41,859 - kmeans - INFO - Iteration 4
+2026-04-19 13:59:42,473 - kmeans - INFO - Iteration 5
+2026-04-19 13:59:43,090 - kmeans - INFO - Iteration 6
+2026-04-19 13:59:43,715 - kmeans - INFO - Iteration 7
+2026-04-19 13:59:44,349 - kmeans - INFO - Iteration 8
+2026-04-19 13:59:44,972 - kmeans - INFO - Iteration 9
+2026-04-19 13:59:45,587 - kmeans - INFO - Iteration 10
+2026-04-19 13:59:46,206 - kmeans - INFO - K-Means finished
+2026-04-19 13:59:46,818 - image_processor - INFO - Compression complete
+2026-04-19 13:59:46,820 - main - INFO - Saved: images/sample_k_10.jpg
+2026-04-19 13:59:46,820 - visualizer - INFO - Displaying images using matplotlib
+2026-04-19 13:59:51,415 - visualizer - INFO - Displaying centroid RGB values
+2026-04-19 13:59:51,415 - visualizer - INFO - Centroid 1: (206, 218, 222)
+2026-04-19 13:59:51,415 - visualizer - INFO - Centroid 2: (49, 84, 11)
+2026-04-19 13:59:51,415 - visualizer - INFO - Centroid 3: (76, 118, 30)
+2026-04-19 13:59:51,415 - visualizer - INFO - Centroid 4: (106, 125, 58)
+2026-04-19 13:59:51,415 - visualizer - INFO - Centroid 5: (34, 64, 8)
+2026-04-19 13:59:51,415 - visualizer - INFO - Centroid 6: (63, 96, 25)
+2026-04-19 13:59:51,416 - visualizer - INFO - Centroid 7: (145, 17, 15)
+2026-04-19 13:59:51,416 - visualizer - INFO - Centroid 8: (202, 150, 137)
+2026-04-19 13:59:51,416 - visualizer - INFO - Centroid 9: (201, 65, 58)
+2026-04-19 13:59:51,416 - visualizer - INFO - Centroid 10: (23, 41, 2)
+2026-04-19 13:59:53,082 - main - INFO - 
+Running compression for K=15
+2026-04-19 13:59:53,082 - image_processor - INFO - Opening images/sample.jpeg
+2026-04-19 13:59:53,090 - kmeans - INFO - Starting K-Means with K=15
+2026-04-19 13:59:53,090 - kmeans - INFO - Iteration 1
+2026-04-19 13:59:54,051 - kmeans - INFO - Iteration 2
+2026-04-19 13:59:54,967 - kmeans - INFO - Iteration 3
+2026-04-19 13:59:55,898 - kmeans - INFO - Iteration 4
+2026-04-19 13:59:56,832 - kmeans - INFO - Iteration 5
+2026-04-19 13:59:57,749 - kmeans - INFO - Iteration 6
+2026-04-19 13:59:58,665 - kmeans - INFO - Iteration 7
+2026-04-19 13:59:59,554 - kmeans - INFO - Iteration 8
+2026-04-19 14:00:00,478 - kmeans - INFO - Iteration 9
+2026-04-19 14:00:01,378 - kmeans - INFO - Iteration 10
+2026-04-19 14:00:02,271 - kmeans - INFO - K-Means finished
+2026-04-19 14:00:03,162 - image_processor - INFO - Compression complete
+2026-04-19 14:00:03,164 - main - INFO - Saved: images/sample_k_15.jpg
+2026-04-19 14:00:03,164 - visualizer - INFO - Displaying images using matplotlib
+2026-04-19 14:00:06,939 - visualizer - INFO - Displaying centroid RGB values
+2026-04-19 14:00:06,939 - visualizer - INFO - Centroid 1: (39, 72, 8)
+2026-04-19 14:00:06,939 - visualizer - INFO - Centroid 2: (215, 226, 231)
+2026-04-19 14:00:06,940 - visualizer - INFO - Centroid 3: (61, 94, 24)
+2026-04-19 14:00:06,940 - visualizer - INFO - Centroid 4: (192, 202, 205)
+2026-04-19 14:00:06,940 - visualizer - INFO - Centroid 5: (76, 116, 31)
+2026-04-19 14:00:06,940 - visualizer - INFO - Centroid 6: (58, 7, 5)
+2026-04-19 14:00:06,940 - visualizer - INFO - Centroid 7: (25, 56, 2)
+2026-04-19 14:00:06,940 - visualizer - INFO - Centroid 8: (15, 47, 0)
+2026-04-19 14:00:06,940 - visualizer - INFO - Centroid 9: (183, 40, 36)
+2026-04-19 14:00:06,940 - visualizer - INFO - Centroid 10: (150, 165, 147)
+2026-04-19 14:00:06,940 - visualizer - INFO - Centroid 11: (231, 114, 105)
+2026-04-19 14:00:06,940 - visualizer - INFO - Centroid 12: (137, 14, 13)
+2026-04-19 14:00:06,940 - visualizer - INFO - Centroid 13: (49, 84, 10)
+2026-04-19 14:00:06,940 - visualizer - INFO - Centroid 14: (35, 60, 12)
+2026-04-19 14:00:06,940 - visualizer - INFO - Centroid 15: (106, 124, 55)
+2026-04-19 14:00:09,131 - main - INFO - 
+Running compression for K=20
+2026-04-19 14:00:09,131 - image_processor - INFO - Opening images/sample.jpeg
+2026-04-19 14:00:09,139 - kmeans - INFO - Starting K-Means with K=20
+2026-04-19 14:00:09,139 - kmeans - INFO - Iteration 1
+2026-04-19 14:00:10,362 - kmeans - INFO - Iteration 2
+2026-04-19 14:00:11,553 - kmeans - INFO - Iteration 3
+2026-04-19 14:00:12,727 - kmeans - INFO - Iteration 4
+2026-04-19 14:00:13,930 - kmeans - INFO - Iteration 5
+2026-04-19 14:00:15,141 - kmeans - INFO - Iteration 6
+2026-04-19 14:00:16,313 - kmeans - INFO - Iteration 7
+2026-04-19 14:00:17,492 - kmeans - INFO - Iteration 8
+2026-04-19 14:00:18,673 - kmeans - INFO - Iteration 9
+2026-04-19 14:00:19,858 - kmeans - INFO - Iteration 10
+2026-04-19 14:00:21,066 - kmeans - INFO - K-Means finished
+2026-04-19 14:00:22,488 - image_processor - INFO - Compression complete
+2026-04-19 14:00:22,492 - main - INFO - Saved: images/sample_k_20.jpg
+2026-04-19 14:00:22,493 - visualizer - INFO - Displaying images using matplotlib
+2026-04-19 14:00:24,901 - visualizer - INFO - Displaying centroid RGB values
+2026-04-19 14:00:24,901 - visualizer - INFO - Centroid 1: (237, 124, 115)
+2026-04-19 14:00:24,901 - visualizer - INFO - Centroid 2: (55, 93, 15)
+2026-04-19 14:00:24,901 - visualizer - INFO - Centroid 3: (69, 120, 24)
+2026-04-19 14:00:24,902 - visualizer - INFO - Centroid 4: (199, 209, 213)
+2026-04-19 14:00:24,902 - visualizer - INFO - Centroid 5: (55, 84, 25)
+2026-04-19 14:00:24,902 - visualizer - INFO - Centroid 6: (32, 62, 7)
+2026-04-19 14:00:24,902 - visualizer - INFO - Centroid 7: (216, 227, 232)
+2026-04-19 14:00:24,902 - visualizer - INFO - Centroid 8: (47, 85, 3)
+2026-04-19 14:00:24,902 - visualizer - INFO - Centroid 9: (44, 75, 12)
+2026-04-19 14:00:24,902 - visualizer - INFO - Centroid 10: (174, 187, 187)
+2026-04-19 14:00:24,902 - visualizer - INFO - Centroid 11: (160, 19, 18)
+2026-04-19 14:00:24,902 - visualizer - INFO - Centroid 12: (114, 13, 10)
+2026-04-19 14:00:24,902 - visualizer - INFO - Centroid 13: (66, 100, 27)
+2026-04-19 14:00:24,902 - visualizer - INFO - Centroid 14: (137, 151, 121)
+2026-04-19 14:00:24,902 - visualizer - INFO - Centroid 15: (17, 49, 1)
+2026-04-19 14:00:24,902 - visualizer - INFO - Centroid 16: (82, 133, 35)
+2026-04-19 14:00:24,902 - visualizer - INFO - Centroid 17: (83, 106, 38)
+2026-04-19 14:00:24,902 - visualizer - INFO - Centroid 18: (109, 123, 53)
+2026-04-19 14:00:24,903 - visualizer - INFO - Centroid 19: (195, 59, 52)
+2026-04-19 14:00:24,903 - visualizer - INFO - Centroid 20: (45, 6, 5)
+2026-04-19 14:00:26,615 - main - INFO - Program finished
