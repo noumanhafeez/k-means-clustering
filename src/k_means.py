@@ -5,32 +5,28 @@ from utils.logger import get_logger
 logger = get_logger("kmeans")
 
 
-def kmeans(pixels, K, max_iterations=10):
+def kmeans(pixels, K, max_iterations):
 
-    logger.info(f"Starting K-Means with K={K}, max_iterations={max_iterations}")
+    logger.info(f"Starting K-Means with K={K}")
 
     centroids = random.sample(pixels, K)
-    logger.info(f"Initial centroids selected")
 
     for iteration in range(max_iterations):
 
-        logger.info(f"Iteration {iteration + 1} started")
+        logger.info(f"Iteration {iteration + 1}")
 
         clusters = [[] for _ in range(K)]
 
-        # Assign pixels
         for pixel in pixels:
             distances = [distance(pixel, c) for c in centroids]
             cluster_index = distances.index(min(distances))
             clusters[cluster_index].append(pixel)
 
-        # Update centroids
         new_centroids = []
 
-        for index, cluster in enumerate(clusters):
+        for cluster in clusters:
 
-            if len(cluster) == 0:
-                logger.warning(f"Cluster {index} is empty. Choosing random centroid.")
+            if not cluster:
                 new_centroids.append(random.choice(pixels))
             else:
                 r = sum(p[0] for p in cluster) / len(cluster)
@@ -40,10 +36,11 @@ def kmeans(pixels, K, max_iterations=10):
                 new_centroids.append((int(r), int(g), int(b)))
 
         if new_centroids == centroids:
-            logger.info(f"Converged at iteration {iteration + 1}")
+            logger.info("Converged early")
             break
 
         centroids = new_centroids
 
-    logger.info("K-Means completed")
+    logger.info("K-Means finished")
+
     return centroids
