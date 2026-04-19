@@ -1,0 +1,11 @@
+IMAGE_PATH = "images/sample.jpeg"
+
+MAX_ITERATIONS = 10
+
+USE_MULTI_K = True
+K_VALUES = [2, 3, 5, 10, 15, 20]
+K_CLUSTERS = 4
+
+SAVE_OUTPUT = True
+OUTPUT_FOLDER = "images/"
+SHOW_CENTROIDS = True
