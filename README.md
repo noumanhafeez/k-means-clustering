@@ -1,1 +1,1 @@
-# dummy-project
+# Image compression using k-means clustering
